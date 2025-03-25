@@ -60,4 +60,7 @@ dependencies {
     implementation("androidx.activity:activity-compose:1.10.1")
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.2")
     implementation("androidx.navigation:navigation-compose:2.7.6")
+
+    implementation("io.coil-kt:coil-compose:2.7.0")
+
 }
