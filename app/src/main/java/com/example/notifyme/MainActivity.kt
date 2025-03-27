@@ -22,17 +22,7 @@ class MainActivity : ComponentActivity() {
         }
 
         setContent {
-            val context = LocalContext.current
-            val appsList by remember { mutableStateOf(AppUtils.getInstalledApps(context)) }
-            var selectedApps by remember { mutableStateOf(setOf<String>()) } // Fix: Define selectedApps
-
-            AppListScreen(appsList, selectedApps) { selectedApp, isSelected ->
-                selectedApps = if (isSelected) {
-                    selectedApps + selectedApp.packageName
-                } else {
-                    selectedApps - selectedApp.packageName
-                }
-            }
+            NotifyMeApp()
         }
     }
 
