@@ -35,6 +35,8 @@ fun NotificationScreen(selectedApps: List<AppInfo>) {
     }
 }
 
+
+
 @Composable
 fun NotificationCard(app: AppInfo) {
     Card(
