@@ -137,6 +137,7 @@ fun AppCard(
     }
 }
 
+
 @Composable
 fun SectionTitle(title: String) {
     Text(
