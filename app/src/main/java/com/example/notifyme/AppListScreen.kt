@@ -90,6 +90,7 @@ fun AppListScreen(apps: List<AppInfo>, selectedApps: Set<String>, onAppToggle: (
     }
 }
 
+
 @Composable
 fun AppCard(
     app: AppInfo,
